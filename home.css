@@ -1,0 +1,135 @@
+/* CSS used only on homepage. */
+
+
+#introduction h1 {
+	padding: 120px;
+	text-align: center;
+
+	font-weight: 300;
+	font-size: 72px;
+	line-height: 150%;
+}
+
+#selected_works h2, #about_me h2, #contact_me h2 {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 56px;
+	line-height: 150%;
+	margin: 0;
+}
+
+#selected_works {
+	
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 32px;
+}
+
+#selected_works .work {
+	
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 32px;
+}
+
+#selected_works .work img {
+	width: 50%;
+	height: 25%;
+	object-fit: cover;
+}
+
+
+#selected_works .work div {
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	
+	font-weight: 300;
+	width: 50%;
+}
+
+
+#selected_works .work div h3 {
+	
+	font-size: 32px;
+	font-weight: 400;
+}
+
+
+#selected_works .work div p {
+	
+	font-size: 18px;
+	font-weight: 200;
+}
+
+#selected_works .work div a, #about_me a {
+	display: block;
+	box-sizing: border-box;
+	border: 1px solid rgba(227, 228, 230, 0.55);
+	border-radius: 100px;
+	
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+
+	width: 163px;
+	height: 40px;
+	text-transform: uppercase;
+	
+	font-size: 16px;
+	font-weight: 200;
+	
+	color: #E3E4E6;
+	background-color: transparent;
+}
+
+#selected_works .work div a:hover, #about_me a:hover {
+	color: #0B0B0B;
+	background-color: #07FFF0;
+}
+
+#more {
+	float: right;
+	
+	display: block;
+	box-sizing: border-box;
+	border: 1px solid rgba(227, 228, 230, 0.55);
+	border-radius: 100px;
+	
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+
+	width: 300px;
+	height: 60px;
+	font-weight: 600;
+	text-transform: uppercase;
+	
+	font-size: 26px;
+	font-weight: 200;
+	
+	color: #E3E4E6;
+	background-color: transparent;
+}
+
+
+#more:hover {
+	color: #0B0B0B;
+	background-color: #07FFF0;
+}
+
+#about_me p {
+	font-size: 36px;
+	font-weight: 100;
+}
+
+#about_me a {
+	float:right;
+}

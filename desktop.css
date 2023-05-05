@@ -1,0 +1,6 @@
+/* We treat anything wider than 600px as a desktop. */
+@media (min-width: 600px) {
+	body {
+		padding: 10px 116px;
+	}
+}

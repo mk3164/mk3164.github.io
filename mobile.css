@@ -1,0 +1,6 @@
+/* We treat anything narrower than 600px as a mobile. */
+@media (max-width: 599px) {
+	body {
+		padding: 0px 16px;
+	}
+}

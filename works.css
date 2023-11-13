@@ -8,6 +8,10 @@
 	margin: 0;
 }
 
+#works h2:nth-child(even) {
+  text-align: right;
+}
+
 #works {
 	/* Auto layout */
 	display: flex;
@@ -27,7 +31,7 @@
 }
 
 #works .work img {
-	width: 50%;
+	width: 40%;
 	height: 25%;
 	object-fit: cover;
 }
@@ -45,13 +49,49 @@
 
 #works .work div h3 {
 	
-	font-size: 32px;
+	font-size: 40px;
 	font-weight: 400;
+	margin-top:0;
+}
+
+
+#works .work div h3 small {
+	color: #808080;
+	font-size: 30px;
+	font-weight: 300;
 }
 
 
 #works .work div p {
 	
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 200;
+}
+
+
+#works .work div a {
+	display: block;
+	box-sizing: border-box;
+	border: 1px solid rgba(227, 228, 230, 0.55);
+	border-radius: 100px;
+	
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+
+	width: 163px;
+	height: 40px;
+	text-transform: uppercase;
+	
+	font-size: 16px;
+	font-weight: 200;
+	
+	color: #E3E4E6;
+	background-color: transparent;
+}
+
+#works .work div a:hover, #about_me a:hover {
+	color: #0B0B0B;
+	background-color: #07FFF0;
 }

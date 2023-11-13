@@ -4,10 +4,18 @@
 #introduction h1 {
 	padding: 120px;
 	text-align: center;
+	padding-right: 30%;
 
 	font-weight: 300;
 	font-size: 72px;
 	line-height: 150%;
+}
+
+#introduction img {
+	float: right;
+	border-radius: 50%;
+	width: 20%;
+	margin-top: 140px;
 }
 
 #selected_works h2, #about_me h2, #contact_me h2 {
@@ -38,7 +46,7 @@
 }
 
 #selected_works .work img {
-	width: 50%;
+	width: 40%;
 	height: 25%;
 	object-fit: cover;
 }
@@ -56,14 +64,22 @@
 
 #selected_works .work div h3 {
 	
-	font-size: 32px;
+	font-size: 40px;
 	font-weight: 400;
+	margin-top:0;
+}
+
+
+#selected_works .work div h3 small {
+	color: #808080;
+	font-size: 30px;
+	font-weight: 300;
 }
 
 
 #selected_works .work div p {
 	
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 200;
 }
 
@@ -123,6 +139,11 @@
 #more:hover {
 	color: #0B0B0B;
 	background-color: #07FFF0;
+}
+
+#about_me img {
+	float: right;
+	width: 200px;
 }
 
 #about_me p {

@@ -1,0 +1,80 @@
+/* CSS used only on homepage. */
+
+#project {
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 32px;
+}
+
+#project h2 {
+	padding-top: 37px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 56px;
+	line-height: 150%;
+	margin: 0;
+}
+
+#project h2 small {
+	color: #808080;
+	font-size: 34px;
+}
+
+#project .logos {
+	display: flex;
+	flex-direction: left;
+	width: auto;
+	position: absolute;
+	top: 110px;
+	right: 115px;
+}
+
+#project .logos img {
+	height: 50px;
+	padding: 0 10px;
+	opacity: 0.5 !important;
+	animation: 0.3s;
+	transition: 0.3s;
+}
+
+#project .logos img:hover {
+	opacity: 1 !important;
+}
+
+#project #hint {
+	position: absolute;
+	top: 165px;
+	right: 125px;
+	text-align: right;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#project p {
+	font-style: normal;
+	font-weight: 200;
+	font-size: 24px;
+	line-height: 150%;
+	margin: 0;
+}
+
+#project h3 {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 40px;
+	line-height: 150%;
+	margin: 0;
+}
+
+
+#project .videos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#project .videos iframe {
+	padding: 10px;
+}

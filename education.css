@@ -1,0 +1,57 @@
+/* CSS used only on homepage. */
+
+#education {
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 32px;
+}
+
+#education h2 {
+	padding-top: 37px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 56px;
+	line-height: 150%;
+	margin: 0;
+}
+
+#education h3 {
+	font-style: normal;
+	width: calc(100% - 300px);
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 150%;
+	margin: 0;
+}
+
+#education h3 small {
+	color: #808080;
+	font-size: 28px;
+}
+
+#education div img {
+	padding-right: 170px;
+	padding-top: 20px;
+	width: 250px;
+	height: auto;
+	position: absolute;
+	right: 0;
+}
+
+#education p, #education li {
+	font-style: normal;
+	font-weight: 200;
+	font-size: 32px;
+	line-height: 150%;
+	margin: 0;
+}
+
+#education li a {
+	color: #07FFF0;
+}
+
+#education li a:hover {
+	color: #E3E4E6;
+}

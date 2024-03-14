@@ -7,8 +7,12 @@ document.addEventListener('DOMContentLoaded', function() {
 		
 		if(logoName == "unity") 
 			hintElement.textContent = "This project was developed with Unity game engine.";
+		else if(logoName == "question") 
+			hintElement.textContent = "This project was developed with a proprietary game engine.";
 		else if(logoName == "csharp") 
 			hintElement.textContent = "This project was developed with C# programming language.";
+		else if(logoName == "cplusplus") 
+			hintElement.textContent = "This project was developed with C++ programming language.";
 		else if(logoName == "mirror") 
 			hintElement.textContent = "This project was developed with Mirror networking library.";
 		else if(logoName == "github") 

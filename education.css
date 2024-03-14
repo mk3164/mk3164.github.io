@@ -43,15 +43,15 @@
 #education p, #education li {
 	font-style: normal;
 	font-weight: 200;
-	font-size: 32px;
+	font-size: 24px;
 	line-height: 150%;
 	margin: 0;
 }
 
-#education li a {
-	color: #07FFF0;
+#education li b {
+	font-size: 32px;
 }
 
-#education li a:hover {
-	color: #E3E4E6;
+#education li b:hover {
+	font-size: 32px;
 }

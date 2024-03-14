@@ -3,19 +3,17 @@
 
 #introduction h1 {
 	padding: 120px;
+	padding-bottom: 0;
 	text-align: center;
-	padding-right: 30%;
 
 	font-weight: 300;
-	font-size: 72px;
+	font-size: 64px;
 	line-height: 150%;
 }
 
-#introduction img {
-	float: right;
-	border-radius: 50%;
-	width: 20%;
-	margin-top: 140px;
+#introduction iframe {
+    margin: 0 auto; /* This centers the div horizontally */
+	display: flex;
 }
 
 #selected_works h2, #about_me h2, #contact_me h2 {
